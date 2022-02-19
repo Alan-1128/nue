@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fafafa;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    
+  }
+  
+  .navbarLeft {
+      width: 234px;
+      height: 100%;
+      position: fixed;
+      margin-left: -300px;
+      background-color: #ebebeb;
+      transition: 0.5s;
+  
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .active-nav {
+      margin-left: 0;
+      
+  }
+  .active-cont {
+      margin-left: 240px;
+  }
+  
+  .myContainer {
+      transition: 0.5s;
+      padding: 0.25rem;
+  }
+  
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  
+.menuBtn {
+    background-color: #ebebeb;
+    color: #100901;
+    margin-left: -60px;
+  
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.375rem 0.15rem;
+  }
+.btnFlecha{
+    margin-left: -52px;
+}
+
+.listU{
+    list-style: none;
+    font-weight: 500;
+}
+
+.listU__font{
+    font-weight: bold;
+    margin: 1.4rem 0 0.4rem 0;
+}
+
+.pointer > li{
+    cursor: pointer;
+}
+.selectE{
+    margin: 5rem 2rem 0 2rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 0.3rem;
+    border: transparent;
+}
+
+
+.textT{
+    margin: 0 0 0 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
